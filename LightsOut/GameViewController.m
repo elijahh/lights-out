@@ -3,33 +3,17 @@
 //  LightsOut
 //
 //  Created by Elijah Houle on 2/23/15.
+//  Last edited by: Kyle Nosar on 2/24/2015
 //  Copyright (c) 2015 Elijah Houle. All rights reserved.
 //
 
 #import "GameViewController.h"
 #import "GameScene.h"
 
-@implementation SKScene (Unarchive)
-
-+ (instancetype)unarchiveFromFile:(NSString *)file {
-    /* Retrieve scene file path from the application bundle */
-    NSString *nodePath = [[NSBundle mainBundle] pathForResource:file ofType:@"sks"];
-    /* Unarchive the file to an SKScene object */
-    NSData *data = [NSData dataWithContentsOfFile:nodePath
-                                          options:NSDataReadingMappedIfSafe
-                                            error:nil];
-    NSKeyedUnarchiver *arch = [[NSKeyedUnarchiver alloc] initForReadingWithData:data];
-    [arch setClass:self forClassName:@"SKScene"];
-    SKScene *scene = [arch decodeObjectForKey:NSKeyedArchiveRootObjectKey];
-    [arch finishDecoding];
-    
-    return scene;
-}
-
-@end
 
 @implementation GameViewController
-
+// we didn't need unarchive from file, you only use that if you use sks map editor(its not ready tho yet)
+// so i deleted it and setup the scene the normal way[TODO: delete after reading]
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -42,7 +26,7 @@
     skView.ignoresSiblingOrder = YES;
     
     // Create and configure the scene.
-    GameScene *scene = [GameScene unarchiveFromFile:@"GameScene"];
+    GameScene *scene = [[GameScene alloc]initWithSize:CGSizeMake(1024, 768)];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.
