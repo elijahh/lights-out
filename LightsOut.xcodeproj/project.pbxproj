@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B7FA0E71A9E5BAD0005624B /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FA0E41A9E5BAD0005624B /* Task.m */; };
+		1B7FA0E81A9E5BAD0005624B /* TaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FA0E61A9E5BAD0005624B /* TaskQueue.m */; };
+		1B7FA0EE1A9E64C80005624B /* LightbulbTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FA0ED1A9E64C70005624B /* LightbulbTask.m */; };
+		1B7FA0F11A9E68280005624B /* CatTrip.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FA0F01A9E68280005624B /* CatTrip.m */; };
 		7E29E9131A9C7E0B008C286C /* SceneUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29E9121A9C7E0B008C286C /* SceneUtils.m */; };
 		7E29E9161A9C7EB9008C286C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29E9151A9C7EB9008C286C /* Player.m */; };
 		B146E42F1A9C09ED000CB0A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E42E1A9C09ED000CB0A0 /* main.m */; };
@@ -30,6 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B7FA0E31A9E5BAD0005624B /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		1B7FA0E41A9E5BAD0005624B /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		1B7FA0E51A9E5BAD0005624B /* TaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskQueue.h; sourceTree = "<group>"; };
+		1B7FA0E61A9E5BAD0005624B /* TaskQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskQueue.m; sourceTree = "<group>"; };
+		1B7FA0EC1A9E64C70005624B /* LightbulbTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightbulbTask.h; sourceTree = "<group>"; };
+		1B7FA0ED1A9E64C70005624B /* LightbulbTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightbulbTask.m; sourceTree = "<group>"; };
+		1B7FA0EF1A9E68280005624B /* CatTrip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatTrip.h; sourceTree = "<group>"; };
+		1B7FA0F01A9E68280005624B /* CatTrip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatTrip.m; sourceTree = "<group>"; };
 		7E29E9111A9C7E0B008C286C /* SceneUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneUtils.h; sourceTree = "<group>"; };
 		7E29E9121A9C7E0B008C286C /* SceneUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneUtils.m; sourceTree = "<group>"; };
 		7E29E9141A9C7EB9008C286C /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
@@ -69,6 +81,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B7FA0F21A9E683F0005624B /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				1B7FA0EC1A9E64C70005624B /* LightbulbTask.h */,
+				1B7FA0EF1A9E68280005624B /* CatTrip.h */,
+				1B7FA0F01A9E68280005624B /* CatTrip.m */,
+				1B7FA0ED1A9E64C70005624B /* LightbulbTask.m */,
+			);
+			name = Tasks;
+			sourceTree = "<group>";
+		};
 		B146E4201A9C09ED000CB0A0 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +113,7 @@
 		B146E42B1A9C09ED000CB0A0 /* LightsOut */ = {
 			isa = PBXGroup;
 			children = (
+				1B7FA0F21A9E683F0005624B /* Tasks */,
 				B146E4301A9C09ED000CB0A0 /* AppDelegate.h */,
 				B146E4311A9C09ED000CB0A0 /* AppDelegate.m */,
 				B146E4331A9C09ED000CB0A0 /* GameScene.h */,
@@ -104,6 +128,10 @@
 				7E29E9121A9C7E0B008C286C /* SceneUtils.m */,
 				7E29E9141A9C7EB9008C286C /* Player.h */,
 				7E29E9151A9C7EB9008C286C /* Player.m */,
+				1B7FA0E31A9E5BAD0005624B /* Task.h */,
+				1B7FA0E41A9E5BAD0005624B /* Task.m */,
+				1B7FA0E51A9E5BAD0005624B /* TaskQueue.h */,
+				1B7FA0E61A9E5BAD0005624B /* TaskQueue.m */,
 			);
 			path = LightsOut;
 			sourceTree = "<group>";
@@ -235,11 +263,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7FA0E71A9E5BAD0005624B /* Task.m in Sources */,
+				1B7FA0EE1A9E64C80005624B /* LightbulbTask.m in Sources */,
 				B146E43A1A9C09ED000CB0A0 /* GameViewController.m in Sources */,
 				B146E4321A9C09ED000CB0A0 /* AppDelegate.m in Sources */,
 				B146E4351A9C09ED000CB0A0 /* GameScene.m in Sources */,
+				1B7FA0F11A9E68280005624B /* CatTrip.m in Sources */,
 				7E29E9131A9C7E0B008C286C /* SceneUtils.m in Sources */,
 				7E29E9161A9C7EB9008C286C /* Player.m in Sources */,
+				1B7FA0E81A9E5BAD0005624B /* TaskQueue.m in Sources */,
 				B146E42F1A9C09ED000CB0A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
