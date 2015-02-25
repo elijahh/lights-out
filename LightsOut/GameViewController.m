@@ -4,7 +4,7 @@
 //
 //  Created by Elijah Houle on 2/23/15.
 //  Last edited by: Kyle Nosar on 2/24/2015
-//  Copyright (c) 2015 Elijah Houle. All rights reserved.
+//  Copyright (c) 2015 Elijah Houle, Kyle Nosar, Matt Burris. All rights reserved.
 //
 
 #import "GameViewController.h"
