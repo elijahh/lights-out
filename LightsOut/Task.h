@@ -10,7 +10,7 @@
 
 @interface Task : NSObject
 
-@property (strong, nonatomic) NSMutableArray* prerequisites; // tasks that this one depends on in order to queue
+@property (strong, nonatomic) NSMutableArray* prerequisites; // tasks that this one depends on in order to queue -- watch out for infinite loops!!!
 @property (nonatomic, assign) BOOL active; // is this the currently active task?
 @property (nonatomic, assign) BOOL completed; // is this task completed?
 
