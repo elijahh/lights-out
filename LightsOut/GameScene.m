@@ -14,7 +14,7 @@
     /* Setup your scene here */
     SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
     
-    myLabel.text = @"Matt missed the meeting! :( Hes Fucking Fired...";
+    myLabel.text = @"Kyle is guilty of spaceship spam";
     myLabel.fontSize = 65;
     myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
                                    CGRectGetMidY(self.frame));
