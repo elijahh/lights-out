@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		1B7FA0FB1AA1D26D0005624B /* MasterScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FA0FA1AA1D26D0005624B /* MasterScene.m */; };
 		7E29E9161A9C7EB9008C286C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29E9151A9C7EB9008C286C /* Player.m */; };
-		7E57E2C41AA19A0100AB94A5 /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57E2C11AA19A0100AB94A5 /* JSTileMap.m */; };
-		7E57E2C51AA19A0100AB94A5 /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57E2C31AA19A0100AB94A5 /* LFCGzipUtility.m */; };
 		7E595E561AA1EF960017A4CD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E57E2C61AA1E6D000AB94A5 /* libz.dylib */; };
 		B146E42F1A9C09ED000CB0A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E42E1A9C09ED000CB0A0 /* main.m */; };
 		B146E4321A9C09ED000CB0A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E4311A9C09ED000CB0A0 /* AppDelegate.m */; };
@@ -20,9 +18,18 @@
 		B146E43F1A9C09ED000CB0A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B146E43E1A9C09ED000CB0A0 /* Images.xcassets */; };
 		B146E4421A9C09ED000CB0A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B146E4401A9C09ED000CB0A0 /* LaunchScreen.xib */; };
 		B146E44E1A9C09ED000CB0A0 /* LightsOutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E44D1A9C09ED000CB0A0 /* LightsOutTests.m */; };
+		B1A62FE51AA1FDA500D23982 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A62FE41AA1FDA500D23982 /* SpriteKit.framework */; };
+		B1A62FE71AA1FDB300D23982 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A62FE61AA1FDB300D23982 /* CoreGraphics.framework */; };
+		B1A62FE91AA1FDB900D23982 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A62FE81AA1FDB900D23982 /* UIKit.framework */; };
+		B1A62FEB1AA1FDCD00D23982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A62FEA1AA1FDCD00D23982 /* Foundation.framework */; };
+		B1A62FF11AA2027000D23982 /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A62FF01AA2027000D23982 /* JSTileMap.m */; };
+		B1A62FFB1AA206E700D23982 /* bluetile.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A62FF81AA206E700D23982 /* bluetile.png */; };
+		B1A62FFC1AA206E700D23982 /* crackedtile.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A62FF91AA206E700D23982 /* crackedtile.png */; };
+		B1A62FFD1AA206E700D23982 /* redtile.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A62FFA1AA206E700D23982 /* redtile.png */; };
 		B1B0EC651AA1B31C0034434B /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B0EC621AA1B31C0034434B /* Task.m */; };
 		B1B0EC661AA1B31C0034434B /* TaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B0EC641AA1B31C0034434B /* TaskQueue.m */; };
 		B1B0EC711AA1ED210034434B /* lo_level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = B1B0EC701AA1ED210034434B /* lo_level1.tmx */; };
+		B1B0EC771AA1F82E0034434B /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B0EC751AA1F82E0034434B /* LFCGzipUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +47,6 @@
 		1B7FA0FA1AA1D26D0005624B /* MasterScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterScene.m; sourceTree = "<group>"; };
 		7E29E9141A9C7EB9008C286C /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		7E29E9151A9C7EB9008C286C /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
-		7E57E2C11AA19A0100AB94A5 /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTileMap.m; sourceTree = "<group>"; };
-		7E57E2C31AA19A0100AB94A5 /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = "<group>"; };
 		7E57E2C61AA1E6D000AB94A5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		B146E4291A9C09ED000CB0A0 /* LightsOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightsOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B146E42D1A9C09ED000CB0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,11 +63,22 @@
 		B146E4471A9C09ED000CB0A0 /* LightsOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightsOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B146E44C1A9C09ED000CB0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B146E44D1A9C09ED000CB0A0 /* LightsOutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightsOutTests.m; sourceTree = "<group>"; };
+		B1A62FE41AA1FDA500D23982 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		B1A62FE61AA1FDB300D23982 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1A62FE81AA1FDB900D23982 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1A62FEA1AA1FDCD00D23982 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1A62FEF1AA2027000D23982 /* JSTileMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTileMap.h; sourceTree = "<group>"; };
+		B1A62FF01AA2027000D23982 /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTileMap.m; sourceTree = "<group>"; };
+		B1A62FF81AA206E700D23982 /* bluetile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluetile.png; path = Maps/bluetile.png; sourceTree = "<group>"; };
+		B1A62FF91AA206E700D23982 /* crackedtile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crackedtile.png; path = Maps/crackedtile.png; sourceTree = "<group>"; };
+		B1A62FFA1AA206E700D23982 /* redtile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redtile.png; path = Maps/redtile.png; sourceTree = "<group>"; };
 		B1B0EC611AA1B31C0034434B /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
 		B1B0EC621AA1B31C0034434B /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		B1B0EC631AA1B31C0034434B /* TaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskQueue.h; sourceTree = "<group>"; };
 		B1B0EC641AA1B31C0034434B /* TaskQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskQueue.m; sourceTree = "<group>"; };
 		B1B0EC701AA1ED210034434B /* lo_level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = lo_level1.tmx; path = Maps/lo_level1.tmx; sourceTree = "<group>"; };
+		B1B0EC741AA1F82E0034434B /* LFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCGzipUtility.h; sourceTree = SOURCE_ROOT; };
+		B1B0EC751AA1F82E0034434B /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +86,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A62FEB1AA1FDCD00D23982 /* Foundation.framework in Frameworks */,
+				B1A62FE91AA1FDB900D23982 /* UIKit.framework in Frameworks */,
+				B1A62FE71AA1FDB300D23982 /* CoreGraphics.framework in Frameworks */,
+				B1A62FE51AA1FDA500D23982 /* SpriteKit.framework in Frameworks */,
 				7E595E561AA1EF960017A4CD /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,6 +107,9 @@
 		1B7FA0FC1AA1D3380005624B /* Maps */ = {
 			isa = PBXGroup;
 			children = (
+				B1A62FF81AA206E700D23982 /* bluetile.png */,
+				B1A62FF91AA206E700D23982 /* crackedtile.png */,
+				B1A62FFA1AA206E700D23982 /* redtile.png */,
 				B1B0EC701AA1ED210034434B /* lo_level1.tmx */,
 			);
 			name = Maps;
@@ -95,10 +118,11 @@
 		B146E4201A9C09ED000CB0A0 = {
 			isa = PBXGroup;
 			children = (
-				7E57E2C61AA1E6D000AB94A5 /* libz.dylib */,
+				B1A62FEE1AA1FE5900D23982 /* External */,
 				B146E42B1A9C09ED000CB0A0 /* LightsOut */,
 				B146E44A1A9C09ED000CB0A0 /* LightsOutTests */,
 				B146E42A1A9C09ED000CB0A0 /* Products */,
+				B1A62FEC1AA1FE2800D23982 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +138,7 @@
 		B146E42B1A9C09ED000CB0A0 /* LightsOut */ = {
 			isa = PBXGroup;
 			children = (
+				B1A62FED1AA1FE4D00D23982 /* JSTileMap */,
 				1B7FA0FC1AA1D3380005624B /* Maps */,
 				B146E4301A9C09ED000CB0A0 /* AppDelegate.h */,
 				B146E4311A9C09ED000CB0A0 /* AppDelegate.m */,
@@ -161,6 +186,36 @@
 				B146E44C1A9C09ED000CB0A0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1A62FEC1AA1FE2800D23982 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E57E2C61AA1E6D000AB94A5 /* libz.dylib */,
+				B1A62FEA1AA1FDCD00D23982 /* Foundation.framework */,
+				B1A62FE81AA1FDB900D23982 /* UIKit.framework */,
+				B1A62FE61AA1FDB300D23982 /* CoreGraphics.framework */,
+				B1A62FE41AA1FDA500D23982 /* SpriteKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1A62FED1AA1FE4D00D23982 /* JSTileMap */ = {
+			isa = PBXGroup;
+			children = (
+				B1A62FEF1AA2027000D23982 /* JSTileMap.h */,
+				B1A62FF01AA2027000D23982 /* JSTileMap.m */,
+			);
+			name = JSTileMap;
+			sourceTree = "<group>";
+		};
+		B1A62FEE1AA1FE5900D23982 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				B1B0EC741AA1F82E0034434B /* LFCGzipUtility.h */,
+				B1B0EC751AA1F82E0034434B /* LFCGzipUtility.m */,
+			);
+			name = External;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +267,6 @@
 				TargetAttributes = {
 					B146E4281A9C09ED000CB0A0 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = BDYC379BTM;
 					};
 					B146E4461A9C09ED000CB0A0 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -245,6 +299,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B146E4421A9C09ED000CB0A0 /* LaunchScreen.xib in Resources */,
+				B1A62FFD1AA206E700D23982 /* redtile.png in Resources */,
+				B1A62FFC1AA206E700D23982 /* crackedtile.png in Resources */,
+				B1A62FFB1AA206E700D23982 /* bluetile.png in Resources */,
 				B146E43F1A9C09ED000CB0A0 /* Images.xcassets in Resources */,
 				B146E43D1A9C09ED000CB0A0 /* Main.storyboard in Resources */,
 				B1B0EC711AA1ED210034434B /* lo_level1.tmx in Resources */,
@@ -268,12 +325,12 @@
 				B146E43A1A9C09ED000CB0A0 /* GameViewController.m in Sources */,
 				B146E4321A9C09ED000CB0A0 /* AppDelegate.m in Sources */,
 				B146E4351A9C09ED000CB0A0 /* GameScene.m in Sources */,
-				7E57E2C41AA19A0100AB94A5 /* JSTileMap.m in Sources */,
 				1B7FA0FB1AA1D26D0005624B /* MasterScene.m in Sources */,
 				7E29E9161A9C7EB9008C286C /* Player.m in Sources */,
-				7E57E2C51AA19A0100AB94A5 /* LFCGzipUtility.m in Sources */,
 				B1B0EC651AA1B31C0034434B /* Task.m in Sources */,
 				B1B0EC661AA1B31C0034434B /* TaskQueue.m in Sources */,
+				B1B0EC771AA1F82E0034434B /* LFCGzipUtility.m in Sources */,
+				B1A62FF11AA2027000D23982 /* JSTileMap.m in Sources */,
 				B146E42F1A9C09ED000CB0A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
