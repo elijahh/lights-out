@@ -8,7 +8,6 @@
 
 #import <SpriteKit/SpriteKit.h>
 #import "MasterScene.h"
-#import "JSTileMap.h"
 
 /* GameScene is our test base (unit test) to test features of our game engine*/
 @interface GameScene : MasterScene

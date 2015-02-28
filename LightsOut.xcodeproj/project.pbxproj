@@ -11,9 +11,9 @@
 		7E29E9161A9C7EB9008C286C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29E9151A9C7EB9008C286C /* Player.m */; };
 		7E57E2C41AA19A0100AB94A5 /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57E2C11AA19A0100AB94A5 /* JSTileMap.m */; };
 		7E57E2C51AA19A0100AB94A5 /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57E2C31AA19A0100AB94A5 /* LFCGzipUtility.m */; };
-		7E57E2C71AA1E6D000AB94A5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E57E2C61AA1E6D000AB94A5 /* libz.dylib */; };
-		7E57E2CD1AA1E8D500AB94A5 /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57E2CA1AA1E8D500AB94A5 /* JSTileMap.m */; };
-		7E57E2CE1AA1E8D500AB94A5 /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57E2CC1AA1E8D500AB94A5 /* LFCGzipUtility.m */; };
+		7E595E561AA1EF960017A4CD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E57E2C61AA1E6D000AB94A5 /* libz.dylib */; };
+		7E595E621AA1F1330017A4CD /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E595E5F1AA1F1330017A4CD /* JSTileMap.m */; };
+		7E595E631AA1F1330017A4CD /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E595E611AA1F1330017A4CD /* LFCGzipUtility.m */; };
 		B146E42F1A9C09ED000CB0A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E42E1A9C09ED000CB0A0 /* main.m */; };
 		B146E4321A9C09ED000CB0A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E4311A9C09ED000CB0A0 /* AppDelegate.m */; };
 		B146E4351A9C09ED000CB0A0 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E4341A9C09ED000CB0A0 /* GameScene.m */; };
@@ -45,10 +45,10 @@
 		7E57E2C11AA19A0100AB94A5 /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTileMap.m; sourceTree = "<group>"; };
 		7E57E2C31AA19A0100AB94A5 /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = "<group>"; };
 		7E57E2C61AA1E6D000AB94A5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		7E57E2C91AA1E8D500AB94A5 /* JSTileMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTileMap.h; sourceTree = "<group>"; };
-		7E57E2CA1AA1E8D500AB94A5 /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTileMap.m; sourceTree = "<group>"; };
-		7E57E2CB1AA1E8D500AB94A5 /* LFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCGzipUtility.h; sourceTree = "<group>"; };
-		7E57E2CC1AA1E8D500AB94A5 /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = "<group>"; };
+		7E595E5E1AA1F1330017A4CD /* JSTileMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSTileMap.h; path = ../JSTileMap.h; sourceTree = "<group>"; };
+		7E595E5F1AA1F1330017A4CD /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSTileMap.m; path = ../JSTileMap.m; sourceTree = "<group>"; };
+		7E595E601AA1F1330017A4CD /* LFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFCGzipUtility.h; path = ../LFCGzipUtility.h; sourceTree = "<group>"; };
+		7E595E611AA1F1330017A4CD /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFCGzipUtility.m; path = ../LFCGzipUtility.m; sourceTree = "<group>"; };
 		B146E4291A9C09ED000CB0A0 /* LightsOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightsOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B146E42D1A9C09ED000CB0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B146E42E1A9C09ED000CB0A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E57E2C71AA1E6D000AB94A5 /* libz.dylib in Frameworks */,
+				7E595E561AA1EF960017A4CD /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,18 +96,6 @@
 				B1B0EC701AA1ED210034434B /* lo_level1.tmx */,
 			);
 			name = Maps;
-			sourceTree = "<group>";
-		};
-		7E57E2C81AA1E8D500AB94A5 /* JSTileMap */ = {
-			isa = PBXGroup;
-			children = (
-				7E57E2C91AA1E8D500AB94A5 /* JSTileMap.h */,
-				7E57E2CA1AA1E8D500AB94A5 /* JSTileMap.m */,
-				7E57E2CB1AA1E8D500AB94A5 /* LFCGzipUtility.h */,
-				7E57E2CC1AA1E8D500AB94A5 /* LFCGzipUtility.m */,
-			);
-			name = JSTileMap;
-			path = ../../../Desktop/JSTileMap;
 			sourceTree = "<group>";
 		};
 		B146E4201A9C09ED000CB0A0 = {
@@ -132,7 +120,10 @@
 		B146E42B1A9C09ED000CB0A0 /* LightsOut */ = {
 			isa = PBXGroup;
 			children = (
-				7E57E2C81AA1E8D500AB94A5 /* JSTileMap */,
+				7E595E5E1AA1F1330017A4CD /* JSTileMap.h */,
+				7E595E5F1AA1F1330017A4CD /* JSTileMap.m */,
+				7E595E601AA1F1330017A4CD /* LFCGzipUtility.h */,
+				7E595E611AA1F1330017A4CD /* LFCGzipUtility.m */,
 				1B7FA0FC1AA1D3380005624B /* Maps */,
 				B146E4301A9C09ED000CB0A0 /* AppDelegate.h */,
 				B146E4311A9C09ED000CB0A0 /* AppDelegate.m */,
@@ -293,8 +284,8 @@
 				7E57E2C51AA19A0100AB94A5 /* LFCGzipUtility.m in Sources */,
 				B1B0EC651AA1B31C0034434B /* Task.m in Sources */,
 				B1B0EC661AA1B31C0034434B /* TaskQueue.m in Sources */,
-				7E57E2CD1AA1E8D500AB94A5 /* JSTileMap.m in Sources */,
-				7E57E2CE1AA1E8D500AB94A5 /* LFCGzipUtility.m in Sources */,
+				7E595E621AA1F1330017A4CD /* JSTileMap.m in Sources */,
+				7E595E631AA1F1330017A4CD /* LFCGzipUtility.m in Sources */,
 				B146E42F1A9C09ED000CB0A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
