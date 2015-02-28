@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B7FA0F71AA1D0080005624B /* lo_level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 1B7FA0F61AA1D0080005624B /* lo_level1.tmx */; };
 		1B7FA0FB1AA1D26D0005624B /* MasterScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FA0FA1AA1D26D0005624B /* MasterScene.m */; };
 		7E29E9161A9C7EB9008C286C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29E9151A9C7EB9008C286C /* Player.m */; };
 		7E57E2C41AA19A0100AB94A5 /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57E2C11AA19A0100AB94A5 /* JSTileMap.m */; };
@@ -25,6 +24,7 @@
 		B146E44E1A9C09ED000CB0A0 /* LightsOutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E44D1A9C09ED000CB0A0 /* LightsOutTests.m */; };
 		B1B0EC651AA1B31C0034434B /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B0EC621AA1B31C0034434B /* Task.m */; };
 		B1B0EC661AA1B31C0034434B /* TaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B0EC641AA1B31C0034434B /* TaskQueue.m */; };
+		B1B0EC711AA1ED210034434B /* lo_level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = B1B0EC701AA1ED210034434B /* lo_level1.tmx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B7FA0F61AA1D0080005624B /* lo_level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = lo_level1.tmx; path = ../../lo_level1.tmx; sourceTree = "<group>"; };
 		1B7FA0F91AA1D26D0005624B /* MasterScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterScene.h; sourceTree = "<group>"; };
 		1B7FA0FA1AA1D26D0005624B /* MasterScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterScene.m; sourceTree = "<group>"; };
 		7E29E9141A9C7EB9008C286C /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
@@ -69,6 +68,7 @@
 		B1B0EC621AA1B31C0034434B /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		B1B0EC631AA1B31C0034434B /* TaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskQueue.h; sourceTree = "<group>"; };
 		B1B0EC641AA1B31C0034434B /* TaskQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskQueue.m; sourceTree = "<group>"; };
+		B1B0EC701AA1ED210034434B /* lo_level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = lo_level1.tmx; path = Maps/lo_level1.tmx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 		1B7FA0FC1AA1D3380005624B /* Maps */ = {
 			isa = PBXGroup;
 			children = (
-				1B7FA0F61AA1D0080005624B /* lo_level1.tmx */,
+				B1B0EC701AA1ED210034434B /* lo_level1.tmx */,
 			);
 			name = Maps;
 			sourceTree = "<group>";
@@ -266,7 +266,7 @@
 				B146E4421A9C09ED000CB0A0 /* LaunchScreen.xib in Resources */,
 				B146E43F1A9C09ED000CB0A0 /* Images.xcassets in Resources */,
 				B146E43D1A9C09ED000CB0A0 /* Main.storyboard in Resources */,
-				1B7FA0F71AA1D0080005624B /* lo_level1.tmx in Resources */,
+				B1B0EC711AA1ED210034434B /* lo_level1.tmx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
