@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B7FA0F71AA1D0080005624B /* lo_level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 1B7FA0F61AA1D0080005624B /* lo_level1.tmx */; };
 		7E29E9131A9C7E0B008C286C /* SceneUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29E9121A9C7E0B008C286C /* SceneUtils.m */; };
 		7E29E9161A9C7EB9008C286C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29E9151A9C7EB9008C286C /* Player.m */; };
 		B146E42F1A9C09ED000CB0A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E42E1A9C09ED000CB0A0 /* main.m */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B7FA0F61AA1D0080005624B /* lo_level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = lo_level1.tmx; path = ../../lo_level1.tmx; sourceTree = "<group>"; };
 		7E29E9111A9C7E0B008C286C /* SceneUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneUtils.h; sourceTree = "<group>"; };
 		7E29E9121A9C7E0B008C286C /* SceneUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneUtils.m; sourceTree = "<group>"; };
 		7E29E9141A9C7EB9008C286C /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
@@ -69,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B7FA0F81AA1D02A0005624B /* maps */ = {
+			isa = PBXGroup;
+			children = (
+				1B7FA0F61AA1D0080005624B /* lo_level1.tmx */,
+			);
+			name = maps;
+			sourceTree = "<group>";
+		};
 		B146E4201A9C09ED000CB0A0 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +100,7 @@
 		B146E42B1A9C09ED000CB0A0 /* LightsOut */ = {
 			isa = PBXGroup;
 			children = (
+				1B7FA0F81AA1D02A0005624B /* maps */,
 				B146E4301A9C09ED000CB0A0 /* AppDelegate.h */,
 				B146E4311A9C09ED000CB0A0 /* AppDelegate.m */,
 				B146E4331A9C09ED000CB0A0 /* GameScene.h */,
@@ -218,6 +229,7 @@
 				B146E4421A9C09ED000CB0A0 /* LaunchScreen.xib in Resources */,
 				B146E43F1A9C09ED000CB0A0 /* Images.xcassets in Resources */,
 				B146E43D1A9C09ED000CB0A0 /* Main.storyboard in Resources */,
+				1B7FA0F71AA1D0080005624B /* lo_level1.tmx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
