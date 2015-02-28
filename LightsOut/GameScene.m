@@ -13,8 +13,8 @@
 -(instancetype) initWithSize:(CGSize)size {
     if (self = [super initWithSize:size]) {
         self.backgroundColor = [SKColor colorWithRed:.4 green:.4 blue:.95 alpha:1.0];
-        self.tileMap = [JSTileMap mapNamed:@"Maps/lo_level1.tmx"];
-        [self addChild:self.tileMap];
+        //self.tileMap = [JSTileMap mapNamed:@"Maps/lo_level1.tmx"];
+        //[self addChild:self.tileMap];
     }
     return self;
 }
