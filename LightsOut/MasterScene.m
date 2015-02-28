@@ -1,14 +1,14 @@
 //
-//  SceneUtils.h
+//  SceneUtils.m
 //  LightsOut
 //
 //  Created by Kyle Nosar on 2/24/15.
 //  Copyright (c) 2015 Elijah Houle, Kyle Nosar, Matt Burris. All rights reserved.
 //
 
-#import <SpriteKit/SpriteKit.h>
+#import "SceneUtils.h"
 
-@interface SceneUtils : SKScene
+@implementation MasterScene
 //TODO: this class will hold all attributes all scenes used need to inherit ie: controls
 
 @end

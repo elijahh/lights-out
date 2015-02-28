@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E29E9131A9C7E0B008C286C /* SceneUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29E9121A9C7E0B008C286C /* SceneUtils.m */; };
+		7E29E9131A9C7E0B008C286C /* MasterScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29E9121A9C7E0B008C286C /* MasterScene.m */; };
 		7E29E9161A9C7EB9008C286C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29E9151A9C7EB9008C286C /* Player.m */; };
+		7E57E2C41AA19A0100AB94A5 /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57E2C11AA19A0100AB94A5 /* JSTileMap.m */; };
+		7E57E2C51AA19A0100AB94A5 /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57E2C31AA19A0100AB94A5 /* LFCGzipUtility.m */; };
 		B146E42F1A9C09ED000CB0A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E42E1A9C09ED000CB0A0 /* main.m */; };
 		B146E4321A9C09ED000CB0A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E4311A9C09ED000CB0A0 /* AppDelegate.m */; };
 		B146E4351A9C09ED000CB0A0 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E4341A9C09ED000CB0A0 /* GameScene.m */; };
@@ -30,10 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7E29E9111A9C7E0B008C286C /* SceneUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneUtils.h; sourceTree = "<group>"; };
-		7E29E9121A9C7E0B008C286C /* SceneUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneUtils.m; sourceTree = "<group>"; };
+		7E29E9111A9C7E0B008C286C /* MasterScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterScene.h; sourceTree = "<group>"; };
+		7E29E9121A9C7E0B008C286C /* MasterScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterScene.m; sourceTree = "<group>"; };
 		7E29E9141A9C7EB9008C286C /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		7E29E9151A9C7EB9008C286C /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		7E57E2C01AA19A0100AB94A5 /* JSTileMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTileMap.h; sourceTree = "<group>"; };
+		7E57E2C11AA19A0100AB94A5 /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTileMap.m; sourceTree = "<group>"; };
+		7E57E2C21AA19A0100AB94A5 /* LFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCGzipUtility.h; sourceTree = "<group>"; };
+		7E57E2C31AA19A0100AB94A5 /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = "<group>"; };
 		B146E4291A9C09ED000CB0A0 /* LightsOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightsOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B146E42D1A9C09ED000CB0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B146E42E1A9C09ED000CB0A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,6 +75,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E57E2BF1AA19A0100AB94A5 /* JSTileMap */ = {
+			isa = PBXGroup;
+			children = (
+				7E57E2C01AA19A0100AB94A5 /* JSTileMap.h */,
+				7E57E2C11AA19A0100AB94A5 /* JSTileMap.m */,
+				7E57E2C21AA19A0100AB94A5 /* LFCGzipUtility.h */,
+				7E57E2C31AA19A0100AB94A5 /* LFCGzipUtility.m */,
+			);
+			name = JSTileMap;
+			path = ../../../Desktop/JSTileMap;
+			sourceTree = "<group>";
+		};
 		B146E4201A9C09ED000CB0A0 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +108,7 @@
 		B146E42B1A9C09ED000CB0A0 /* LightsOut */ = {
 			isa = PBXGroup;
 			children = (
+				7E57E2BF1AA19A0100AB94A5 /* JSTileMap */,
 				B146E4301A9C09ED000CB0A0 /* AppDelegate.h */,
 				B146E4311A9C09ED000CB0A0 /* AppDelegate.m */,
 				B146E4331A9C09ED000CB0A0 /* GameScene.h */,
@@ -100,8 +119,8 @@
 				B146E43E1A9C09ED000CB0A0 /* Images.xcassets */,
 				B146E4401A9C09ED000CB0A0 /* LaunchScreen.xib */,
 				B146E42C1A9C09ED000CB0A0 /* Supporting Files */,
-				7E29E9111A9C7E0B008C286C /* SceneUtils.h */,
-				7E29E9121A9C7E0B008C286C /* SceneUtils.m */,
+				7E29E9111A9C7E0B008C286C /* MasterScene.h */,
+				7E29E9121A9C7E0B008C286C /* MasterScene.m */,
 				7E29E9141A9C7EB9008C286C /* Player.h */,
 				7E29E9151A9C7EB9008C286C /* Player.m */,
 			);
@@ -238,8 +257,10 @@
 				B146E43A1A9C09ED000CB0A0 /* GameViewController.m in Sources */,
 				B146E4321A9C09ED000CB0A0 /* AppDelegate.m in Sources */,
 				B146E4351A9C09ED000CB0A0 /* GameScene.m in Sources */,
-				7E29E9131A9C7E0B008C286C /* SceneUtils.m in Sources */,
+				7E57E2C41AA19A0100AB94A5 /* JSTileMap.m in Sources */,
+				7E29E9131A9C7E0B008C286C /* MasterScene.m in Sources */,
 				7E29E9161A9C7EB9008C286C /* Player.m in Sources */,
+				7E57E2C51AA19A0100AB94A5 /* LFCGzipUtility.m in Sources */,
 				B146E42F1A9C09ED000CB0A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
