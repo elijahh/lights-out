@@ -19,6 +19,8 @@
 		B146E43F1A9C09ED000CB0A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B146E43E1A9C09ED000CB0A0 /* Images.xcassets */; };
 		B146E4421A9C09ED000CB0A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B146E4401A9C09ED000CB0A0 /* LaunchScreen.xib */; };
 		B146E44E1A9C09ED000CB0A0 /* LightsOutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E44D1A9C09ED000CB0A0 /* LightsOutTests.m */; };
+		B1B0EC651AA1B31C0034434B /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B0EC621AA1B31C0034434B /* Task.m */; };
+		B1B0EC661AA1B31C0034434B /* TaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B0EC641AA1B31C0034434B /* TaskQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		B146E4471A9C09ED000CB0A0 /* LightsOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightsOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B146E44C1A9C09ED000CB0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B146E44D1A9C09ED000CB0A0 /* LightsOutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightsOutTests.m; sourceTree = "<group>"; };
+		B1B0EC611AA1B31C0034434B /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		B1B0EC621AA1B31C0034434B /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		B1B0EC631AA1B31C0034434B /* TaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskQueue.h; sourceTree = "<group>"; };
+		B1B0EC641AA1B31C0034434B /* TaskQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskQueue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,10 @@
 				7E29E9121A9C7E0B008C286C /* MasterScene.m */,
 				7E29E9141A9C7EB9008C286C /* Player.h */,
 				7E29E9151A9C7EB9008C286C /* Player.m */,
+				B1B0EC611AA1B31C0034434B /* Task.h */,
+				B1B0EC621AA1B31C0034434B /* Task.m */,
+				B1B0EC631AA1B31C0034434B /* TaskQueue.h */,
+				B1B0EC641AA1B31C0034434B /* TaskQueue.m */,
 			);
 			path = LightsOut;
 			sourceTree = "<group>";
@@ -261,6 +271,8 @@
 				7E29E9131A9C7E0B008C286C /* MasterScene.m in Sources */,
 				7E29E9161A9C7EB9008C286C /* Player.m in Sources */,
 				7E57E2C51AA19A0100AB94A5 /* LFCGzipUtility.m in Sources */,
+				B1B0EC651AA1B31C0034434B /* Task.m in Sources */,
+				B1B0EC661AA1B31C0034434B /* TaskQueue.m in Sources */,
 				B146E42F1A9C09ED000CB0A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

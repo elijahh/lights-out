@@ -7,6 +7,8 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "Task.h"
+#import "TaskQueue.h"
 
 @interface MasterScene : SKScene
 //=========================== FUNCTIONS ===================================
@@ -16,6 +18,9 @@
 -(SKSpriteNode *)newDownButton; //creates Down button every scene
 -(SKSpriteNode *)newAButton;  // creates a button(jump button)?
 -(SKSpriteNode *)newBButton; // creates b button(acceleration)?
+
+-(void) initTaskQueue:(NSMutableArray*) tasks; // series of tasks for level
+-(void) getNextTask; // pop task off queue and assign it to activeTask
 //=========================================================================
 
 //=========================== PROPERTIES LIST ==================================
@@ -32,6 +37,9 @@
 @property const int bButtonXPos;
 @property const int bButtonYPos;
 @property const int yGravity; // TODO: decide gravity implementation
+
+@property (strong, nonatomic) TaskQueue *taskQueue;
+@property (strong, nonatomic) Task *activeTask;
 //=========================================================================
 
 
