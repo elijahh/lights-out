@@ -7,6 +7,7 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "JSTileMap.h"
 #import "Task.h"
 #import "TaskQueue.h"
 
@@ -24,6 +25,7 @@
 //=========================================================================
 
 //=========================== PROPERTIES LIST ==================================
+@property(nonatomic,strong)JSTileMap * tileMap; // loading the unique tile map per level
 @property const int upButtonXPos;
 @property const int upButtonYPos;
 @property const int rightButtonXPos;
