@@ -26,6 +26,7 @@
 		B1A62FFB1AA206E700D23982 /* bluetile.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A62FF81AA206E700D23982 /* bluetile.png */; };
 		B1A62FFC1AA206E700D23982 /* crackedtile.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A62FF91AA206E700D23982 /* crackedtile.png */; };
 		B1A62FFD1AA206E700D23982 /* redtile.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A62FFA1AA206E700D23982 /* redtile.png */; };
+		B1A62FFF1AA20B1D00D23982 /* lightsout2.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A62FFE1AA20B1D00D23982 /* lightsout2.png */; };
 		B1B0EC651AA1B31C0034434B /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B0EC621AA1B31C0034434B /* Task.m */; };
 		B1B0EC661AA1B31C0034434B /* TaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B0EC641AA1B31C0034434B /* TaskQueue.m */; };
 		B1B0EC711AA1ED210034434B /* lo_level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = B1B0EC701AA1ED210034434B /* lo_level1.tmx */; };
@@ -72,6 +73,7 @@
 		B1A62FF81AA206E700D23982 /* bluetile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluetile.png; path = Maps/bluetile.png; sourceTree = "<group>"; };
 		B1A62FF91AA206E700D23982 /* crackedtile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crackedtile.png; path = Maps/crackedtile.png; sourceTree = "<group>"; };
 		B1A62FFA1AA206E700D23982 /* redtile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redtile.png; path = Maps/redtile.png; sourceTree = "<group>"; };
+		B1A62FFE1AA20B1D00D23982 /* lightsout2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightsout2.png; sourceTree = "<group>"; };
 		B1B0EC611AA1B31C0034434B /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
 		B1B0EC621AA1B31C0034434B /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		B1B0EC631AA1B31C0034434B /* TaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskQueue.h; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		1B7FA0FC1AA1D3380005624B /* Maps */ = {
 			isa = PBXGroup;
 			children = (
+				B1A62FFE1AA20B1D00D23982 /* lightsout2.png */,
 				B1A62FF81AA206E700D23982 /* bluetile.png */,
 				B1A62FF91AA206E700D23982 /* crackedtile.png */,
 				B1A62FFA1AA206E700D23982 /* redtile.png */,
@@ -304,6 +307,7 @@
 				B1A62FFB1AA206E700D23982 /* bluetile.png in Resources */,
 				B146E43F1A9C09ED000CB0A0 /* Images.xcassets in Resources */,
 				B146E43D1A9C09ED000CB0A0 /* Main.storyboard in Resources */,
+				B1A62FFF1AA20B1D00D23982 /* lightsout2.png in Resources */,
 				B1B0EC711AA1ED210034434B /* lo_level1.tmx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

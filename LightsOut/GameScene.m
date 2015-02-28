@@ -12,7 +12,10 @@
 
 -(instancetype) initWithSize:(CGSize)size {
     if (self = [super initWithSize:size]) {
-        self.backgroundColor = [SKColor colorWithRed:.4 green:.4 blue:.95 alpha:1.0];
+        //SKSpriteNode *bgImage = [SKSpriteNode spriteNodeWithImageNamed:@"lightsout2.png"];
+        //bgImage.position = CGPointMake(self.size.width/2, self.size.height/2);
+        //bgImage.size = CGSizeMake(768, 480);
+        //[self addChild:bgImage];
         self.tileMap = [JSTileMap mapNamed:@"lo_level1.tmx"];
         [self addChild:self.tileMap];
     }
