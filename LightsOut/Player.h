@@ -9,5 +9,7 @@
 #import <SpriteKit/SpriteKit.h>
 
 @interface Player : SKSpriteNode
+-(instancetype)initWithImageNamed:(NSString *)filename; // contstructor to create player and set velocity
+@property(nonatomic,assign)CGPoint velocity; // velocity to be applied
 
 @end

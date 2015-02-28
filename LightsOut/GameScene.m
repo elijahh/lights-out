@@ -10,16 +10,17 @@
 
 @implementation GameScene
 
--(void)didMoveToView:(SKView *)view {
-    /* Setup your scene here */
-    SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
+-(void)didMoveToView:(SKView *)view
+{
+    //create test sprite to use in testing controls
+    SKSpriteNode * testSprite = [[SKSpriteNode alloc]
+                                 initWithColor:[SKColor redColor]size:CGSizeMake(32,32)];
+    testSprite.position = CGPointMake(self.frame.size.width/2, self.frame.size.height/2);
+    testSprite.name = @"testSprite";
+
+
     
-    myLabel.text = @"Matt missed the meeting! :( Hes Fucking Fired...";
-    myLabel.fontSize = 65;
-    myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
-                                   CGRectGetMidY(self.frame));
-    
-    [self addChild:myLabel];
+    [self addChild:testSprite];
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
