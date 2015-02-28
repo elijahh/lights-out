@@ -11,6 +11,7 @@
 		7E29E9161A9C7EB9008C286C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29E9151A9C7EB9008C286C /* Player.m */; };
 		7E57E2C41AA19A0100AB94A5 /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57E2C11AA19A0100AB94A5 /* JSTileMap.m */; };
 		7E57E2C51AA19A0100AB94A5 /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57E2C31AA19A0100AB94A5 /* LFCGzipUtility.m */; };
+		7E57E2C71AA1E6D000AB94A5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E57E2C61AA1E6D000AB94A5 /* libz.dylib */; };
 		B146E42F1A9C09ED000CB0A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E42E1A9C09ED000CB0A0 /* main.m */; };
 		B146E4321A9C09ED000CB0A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E4311A9C09ED000CB0A0 /* AppDelegate.m */; };
 		B146E4351A9C09ED000CB0A0 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E4341A9C09ED000CB0A0 /* GameScene.m */; };
@@ -40,6 +41,7 @@
 		7E57E2C11AA19A0100AB94A5 /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTileMap.m; sourceTree = "<group>"; };
 		7E57E2C21AA19A0100AB94A5 /* LFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCGzipUtility.h; sourceTree = "<group>"; };
 		7E57E2C31AA19A0100AB94A5 /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = "<group>"; };
+		7E57E2C61AA1E6D000AB94A5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		B146E4291A9C09ED000CB0A0 /* LightsOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightsOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B146E42D1A9C09ED000CB0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B146E42E1A9C09ED000CB0A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E57E2C71AA1E6D000AB94A5 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +93,7 @@
 		B146E4201A9C09ED000CB0A0 = {
 			isa = PBXGroup;
 			children = (
+				7E57E2C61AA1E6D000AB94A5 /* libz.dylib */,
 				B146E42B1A9C09ED000CB0A0 /* LightsOut */,
 				B146E44A1A9C09ED000CB0A0 /* LightsOutTests */,
 				B146E42A1A9C09ED000CB0A0 /* Products */,
