@@ -11,4 +11,14 @@
 @implementation MasterScene
 //TODO: this class will hold all attributes all scenes used need to inherit ie: controls
 
+-(void) initTaskQueue:(NSMutableArray*) tasks {
+    for (int i = 0; i < tasks.count; ++i) {
+        [self.taskQueue pushTask:tasks[i]];
+    }
+}
+
+-(void) getNextTask {
+    self.activeTask = [self.taskQueue popTask];
+}
+
 @end

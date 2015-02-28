@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E29E9131A9C7E0B008C286C /* MasterScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29E9121A9C7E0B008C286C /* MasterScene.m */; };
+		1B7FA0F71AA1D0080005624B /* lo_level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 1B7FA0F61AA1D0080005624B /* lo_level1.tmx */; };
+		1B7FA0FB1AA1D26D0005624B /* MasterScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FA0FA1AA1D26D0005624B /* MasterScene.m */; };
 		7E29E9161A9C7EB9008C286C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29E9151A9C7EB9008C286C /* Player.m */; };
 		7E57E2C41AA19A0100AB94A5 /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57E2C11AA19A0100AB94A5 /* JSTileMap.m */; };
 		7E57E2C51AA19A0100AB94A5 /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57E2C31AA19A0100AB94A5 /* LFCGzipUtility.m */; };
@@ -20,6 +21,8 @@
 		B146E43F1A9C09ED000CB0A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B146E43E1A9C09ED000CB0A0 /* Images.xcassets */; };
 		B146E4421A9C09ED000CB0A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B146E4401A9C09ED000CB0A0 /* LaunchScreen.xib */; };
 		B146E44E1A9C09ED000CB0A0 /* LightsOutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E44D1A9C09ED000CB0A0 /* LightsOutTests.m */; };
+		B1B0EC651AA1B31C0034434B /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B0EC621AA1B31C0034434B /* Task.m */; };
+		B1B0EC661AA1B31C0034434B /* TaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B0EC641AA1B31C0034434B /* TaskQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7E29E9111A9C7E0B008C286C /* MasterScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterScene.h; sourceTree = "<group>"; };
-		7E29E9121A9C7E0B008C286C /* MasterScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterScene.m; sourceTree = "<group>"; };
+		1B7FA0F61AA1D0080005624B /* lo_level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = lo_level1.tmx; path = ../../lo_level1.tmx; sourceTree = "<group>"; };
+		1B7FA0F91AA1D26D0005624B /* MasterScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterScene.h; sourceTree = "<group>"; };
+		1B7FA0FA1AA1D26D0005624B /* MasterScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterScene.m; sourceTree = "<group>"; };
 		7E29E9141A9C7EB9008C286C /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		7E29E9151A9C7EB9008C286C /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
-		7E57E2C01AA19A0100AB94A5 /* JSTileMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTileMap.h; sourceTree = "<group>"; };
 		7E57E2C11AA19A0100AB94A5 /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTileMap.m; sourceTree = "<group>"; };
-		7E57E2C21AA19A0100AB94A5 /* LFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCGzipUtility.h; sourceTree = "<group>"; };
 		7E57E2C31AA19A0100AB94A5 /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = "<group>"; };
 		7E57E2C61AA1E6D000AB94A5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		B146E4291A9C09ED000CB0A0 /* LightsOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightsOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +59,10 @@
 		B146E4471A9C09ED000CB0A0 /* LightsOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightsOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B146E44C1A9C09ED000CB0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B146E44D1A9C09ED000CB0A0 /* LightsOutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightsOutTests.m; sourceTree = "<group>"; };
+		B1B0EC611AA1B31C0034434B /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		B1B0EC621AA1B31C0034434B /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		B1B0EC631AA1B31C0034434B /* TaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskQueue.h; sourceTree = "<group>"; };
+		B1B0EC641AA1B31C0034434B /* TaskQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskQueue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,16 +84,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7E57E2BF1AA19A0100AB94A5 /* JSTileMap */ = {
+		1B7FA0FC1AA1D3380005624B /* Maps */ = {
 			isa = PBXGroup;
 			children = (
-				7E57E2C01AA19A0100AB94A5 /* JSTileMap.h */,
-				7E57E2C11AA19A0100AB94A5 /* JSTileMap.m */,
-				7E57E2C21AA19A0100AB94A5 /* LFCGzipUtility.h */,
-				7E57E2C31AA19A0100AB94A5 /* LFCGzipUtility.m */,
+				1B7FA0F61AA1D0080005624B /* lo_level1.tmx */,
 			);
-			name = JSTileMap;
-			path = ../../../Desktop/JSTileMap;
+			name = Maps;
 			sourceTree = "<group>";
 		};
 		B146E4201A9C09ED000CB0A0 = {
@@ -112,7 +114,7 @@
 		B146E42B1A9C09ED000CB0A0 /* LightsOut */ = {
 			isa = PBXGroup;
 			children = (
-				7E57E2BF1AA19A0100AB94A5 /* JSTileMap */,
+				1B7FA0FC1AA1D3380005624B /* Maps */,
 				B146E4301A9C09ED000CB0A0 /* AppDelegate.h */,
 				B146E4311A9C09ED000CB0A0 /* AppDelegate.m */,
 				B146E4331A9C09ED000CB0A0 /* GameScene.h */,
@@ -123,10 +125,14 @@
 				B146E43E1A9C09ED000CB0A0 /* Images.xcassets */,
 				B146E4401A9C09ED000CB0A0 /* LaunchScreen.xib */,
 				B146E42C1A9C09ED000CB0A0 /* Supporting Files */,
-				7E29E9111A9C7E0B008C286C /* MasterScene.h */,
-				7E29E9121A9C7E0B008C286C /* MasterScene.m */,
 				7E29E9141A9C7EB9008C286C /* Player.h */,
 				7E29E9151A9C7EB9008C286C /* Player.m */,
+				B1B0EC611AA1B31C0034434B /* Task.h */,
+				B1B0EC621AA1B31C0034434B /* Task.m */,
+				B1B0EC631AA1B31C0034434B /* TaskQueue.h */,
+				B1B0EC641AA1B31C0034434B /* TaskQueue.m */,
+				1B7FA0F91AA1D26D0005624B /* MasterScene.h */,
+				1B7FA0FA1AA1D26D0005624B /* MasterScene.m */,
 			);
 			path = LightsOut;
 			sourceTree = "<group>";
@@ -241,6 +247,7 @@
 				B146E4421A9C09ED000CB0A0 /* LaunchScreen.xib in Resources */,
 				B146E43F1A9C09ED000CB0A0 /* Images.xcassets in Resources */,
 				B146E43D1A9C09ED000CB0A0 /* Main.storyboard in Resources */,
+				1B7FA0F71AA1D0080005624B /* lo_level1.tmx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +269,11 @@
 				B146E4321A9C09ED000CB0A0 /* AppDelegate.m in Sources */,
 				B146E4351A9C09ED000CB0A0 /* GameScene.m in Sources */,
 				7E57E2C41AA19A0100AB94A5 /* JSTileMap.m in Sources */,
-				7E29E9131A9C7E0B008C286C /* MasterScene.m in Sources */,
+				1B7FA0FB1AA1D26D0005624B /* MasterScene.m in Sources */,
 				7E29E9161A9C7EB9008C286C /* Player.m in Sources */,
 				7E57E2C51AA19A0100AB94A5 /* LFCGzipUtility.m in Sources */,
+				B1B0EC651AA1B31C0034434B /* Task.m in Sources */,
+				B1B0EC661AA1B31C0034434B /* TaskQueue.m in Sources */,
 				B146E42F1A9C09ED000CB0A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
