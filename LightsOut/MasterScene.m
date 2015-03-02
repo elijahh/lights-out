@@ -36,14 +36,14 @@
 
 -(instancetype) initWithSize:(CGSize)size {
     if (self = [super initWithSize:size]) {
-        [self setLeftButtonXPos:20];
-        [self setLeftButtonYPos:20];
-        [self setRightButtonXPos:75];
-        [self setRightButtonYPos:20];
-        [self setAButtonXPos:size.width-70];
-        [self setAButtonYPos:20];
-        [self setBButtonXPos:size.width-125];
-        [self setBButtonYPos:20];
+        [self setLeftButtonXPos:50];
+        [self setLeftButtonYPos:50];
+        [self setRightButtonXPos:150];
+        [self setRightButtonYPos:50];
+        [self setAButtonXPos:size.width-50];
+        [self setAButtonYPos:50];
+        [self setBButtonXPos:size.width-150];
+        [self setBButtonYPos:50];
         self.leftButton = [self newLeftButton];
         [self addChild:self.leftButton];
         self.rightButton = [self newRightButton];
@@ -87,52 +87,52 @@
 -(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     for (UITouch* touch in touches) {
         CGPoint point = [touch locationInNode:self];
-        if (self.leftButtonXPos-20 <= point.x && point.x <= self.leftButtonXPos+20
-            && self.leftButtonYPos-20 <= point.y && point.y <= self.leftButtonYPos+20) [self setLeftButtonTouched:YES];
-        if (self.rightButtonXPos-20 <= point.x && point.x <= self.rightButtonXPos+20
-            && self.rightButtonYPos-20 <= point.y && point.y <= self.rightButtonYPos+20) [self setRightButtonTouched:YES];
-        if (self.aButtonXPos-20 <= point.x && point.x <= self.aButtonXPos+20
-            && self.aButtonYPos-20 <= point.y && point.y <= self.aButtonYPos+20) [self setAButtonTouched:YES];
-        if (self.bButtonXPos-20 <= point.x && point.x <= self.bButtonXPos+20
-            && self.bButtonYPos-20 <= point.y && point.y <= self.bButtonYPos+20) [self setBButtonTouched:YES];
+        if (self.leftButtonXPos-40 <= point.x && point.x <= self.leftButtonXPos+40
+            && self.leftButtonYPos-40 <= point.y && point.y <= self.leftButtonYPos+40) [self setLeftButtonTouched:YES];
+        if (self.rightButtonXPos-40 <= point.x && point.x <= self.rightButtonXPos+40
+            && self.rightButtonYPos-40 <= point.y && point.y <= self.rightButtonYPos+40) [self setRightButtonTouched:YES];
+        if (self.aButtonXPos-40 <= point.x && point.x <= self.aButtonXPos+40
+            && self.aButtonYPos-40 <= point.y && point.y <= self.aButtonYPos+40) [self setAButtonTouched:YES];
+        if (self.bButtonXPos-40 <= point.x && point.x <= self.bButtonXPos+40
+            && self.bButtonYPos-40 <= point.y && point.y <= self.bButtonYPos+40) [self setBButtonTouched:YES];
     }
 }
 
 -(void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
     for (UITouch* touch in touches) {
         CGPoint point = [touch locationInNode:self];
-        if (self.leftButtonXPos-20 <= point.x && point.x <= self.leftButtonXPos+20
-            && self.leftButtonYPos-20 <= point.y && point.y <= self.leftButtonYPos+20) [self setLeftButtonTouched:NO];
-        if (self.rightButtonXPos-20 <= point.x && point.x <= self.rightButtonXPos+20
-            && self.rightButtonYPos-20 <= point.y && point.y <= self.rightButtonYPos+20) [self setRightButtonTouched:NO];
-        if (self.aButtonXPos-20 <= point.x && point.x <= self.aButtonXPos+20
-            && self.aButtonYPos-20 <= point.y && point.y <= self.aButtonYPos+20) [self setAButtonTouched:NO];
-        if (self.bButtonXPos-20 <= point.x && point.x <= self.bButtonXPos+20
-            && self.bButtonYPos-20 <= point.y && point.y <= self.bButtonYPos+20) [self setBButtonTouched:NO];
+        if (self.leftButtonXPos-40 <= point.x && point.x <= self.leftButtonXPos+40
+            && self.leftButtonYPos-40 <= point.y && point.y <= self.leftButtonYPos+40) [self setLeftButtonTouched:NO];
+        if (self.rightButtonXPos-40 <= point.x && point.x <= self.rightButtonXPos+40
+            && self.rightButtonYPos-40 <= point.y && point.y <= self.rightButtonYPos+40) [self setRightButtonTouched:NO];
+        if (self.aButtonXPos-40 <= point.x && point.x <= self.aButtonXPos+40
+            && self.aButtonYPos-40 <= point.y && point.y <= self.aButtonYPos+40) [self setAButtonTouched:NO];
+        if (self.bButtonXPos-40 <= point.x && point.x <= self.bButtonXPos+40
+            && self.bButtonYPos-40 <= point.y && point.y <= self.bButtonYPos+40) [self setBButtonTouched:NO];
     }
 }
 
 -(void) touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
     for (UITouch* touch in touches) {
         CGPoint point = [touch previousLocationInNode:self]; // stop touching
-        if (self.leftButtonXPos-20 <= point.x && point.x <= self.leftButtonXPos+20
-            && self.leftButtonYPos-20 <= point.y && point.y <= self.leftButtonYPos+20) [self setLeftButtonTouched:NO];
-        if (self.rightButtonXPos-20 <= point.x && point.x <= self.rightButtonXPos+20
-            && self.rightButtonYPos-20 <= point.y && point.y <= self.rightButtonYPos+20) [self setRightButtonTouched:NO];
-        if (self.aButtonXPos-20 <= point.x && point.x <= self.aButtonXPos+20
-            && self.aButtonYPos-20 <= point.y && point.y <= self.aButtonYPos+20) [self setAButtonTouched:NO];
-        if (self.bButtonXPos-20 <= point.x && point.x <= self.bButtonXPos+20
-            && self.bButtonYPos-20 <= point.y && point.y <= self.bButtonYPos+20) [self setBButtonTouched:NO];
+        if (self.leftButtonXPos-40 <= point.x && point.x <= self.leftButtonXPos+40
+            && self.leftButtonYPos-40 <= point.y && point.y <= self.leftButtonYPos+40) [self setLeftButtonTouched:NO];
+        if (self.rightButtonXPos-40 <= point.x && point.x <= self.rightButtonXPos+40
+            && self.rightButtonYPos-40 <= point.y && point.y <= self.rightButtonYPos+40) [self setRightButtonTouched:NO];
+        if (self.aButtonXPos-40 <= point.x && point.x <= self.aButtonXPos+40
+            && self.aButtonYPos-40 <= point.y && point.y <= self.aButtonYPos+40) [self setAButtonTouched:NO];
+        if (self.bButtonXPos-40 <= point.x && point.x <= self.bButtonXPos+40
+            && self.bButtonYPos-40 <= point.y && point.y <= self.bButtonYPos+40) [self setBButtonTouched:NO];
         
         point = [touch locationInNode:self]; // start touching
-        if (self.leftButtonXPos-20 <= point.x && point.x <= self.leftButtonXPos+20
-            && self.leftButtonYPos-20 <= point.y && point.y <= self.leftButtonYPos+20) [self setLeftButtonTouched:YES];
-        if (self.rightButtonXPos-20 <= point.x && point.x <= self.rightButtonXPos+20
-            && self.rightButtonYPos-20 <= point.y && point.y <= self.rightButtonYPos+20) [self setRightButtonTouched:YES];
-        if (self.aButtonXPos-20 <= point.x && point.x <= self.aButtonXPos+20
-            && self.aButtonYPos-20 <= point.y && point.y <= self.aButtonYPos+20) [self setAButtonTouched:YES];
-        if (self.bButtonXPos-20 <= point.x && point.x <= self.bButtonXPos+20
-            && self.bButtonYPos-20 <= point.y && point.y <= self.bButtonYPos+20) [self setBButtonTouched:YES];
+        if (self.leftButtonXPos-40 <= point.x && point.x <= self.leftButtonXPos+40
+            && self.leftButtonYPos-40 <= point.y && point.y <= self.leftButtonYPos+40) [self setLeftButtonTouched:YES];
+        if (self.rightButtonXPos-40 <= point.x && point.x <= self.rightButtonXPos+40
+            && self.rightButtonYPos-40 <= point.y && point.y <= self.rightButtonYPos+40) [self setRightButtonTouched:YES];
+        if (self.aButtonXPos-40 <= point.x && point.x <= self.aButtonXPos+40
+            && self.aButtonYPos-40 <= point.y && point.y <= self.aButtonYPos+40) [self setAButtonTouched:YES];
+        if (self.bButtonXPos-40 <= point.x && point.x <= self.bButtonXPos+40
+            && self.bButtonYPos-40 <= point.y && point.y <= self.bButtonYPos+40) [self setBButtonTouched:YES];
     }
 }
 
