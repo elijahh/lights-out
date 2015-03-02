@@ -12,7 +12,7 @@
 
 -(instancetype) initWithSize:(CGSize)size {
     if (self = [super initWithSize:size]) {
-        self.backgroundColor = [SKColor whiteColor];
+        self.backgroundColor = [SKColor blackColor];
         self.tileMap = [JSTileMap mapNamed:@"level1.tmx"];
         self.walls = [self.tileMap layerNamed:@"walls"];
         [self addChild:self.tileMap];   //add tileMap to the scene tree

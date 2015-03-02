@@ -10,6 +10,30 @@
 
 @implementation MasterScene
 
+-(void) setLeftButtonTouched:(BOOL)leftButtonTouched {
+    _leftButtonTouched = leftButtonTouched;
+    if (leftButtonTouched) [self.leftButton setAlpha:1.0];
+    else [self.leftButton setAlpha:0.5];
+}
+
+-(void) setRightButtonTouched:(BOOL)rightButtonTouched {
+    _rightButtonTouched = rightButtonTouched;
+    if (rightButtonTouched) [self.rightButton setAlpha:1.0];
+    else [self.rightButton setAlpha:0.5];
+}
+
+-(void) setAButtonTouched:(BOOL)aButtonTouched {
+    _aButtonTouched = aButtonTouched;
+    if (aButtonTouched) [self.aButton setAlpha:1.0];
+    else [self.aButton setAlpha:0.5];
+}
+
+-(void) setBButtonTouched:(BOOL)bButtonTouched {
+    _bButtonTouched = bButtonTouched;
+    if (bButtonTouched) [self.bButton setAlpha:1.0];
+    else [self.bButton setAlpha:0.5];
+}
+
 -(instancetype) initWithSize:(CGSize)size {
     if (self = [super initWithSize:size]) {
         [self setLeftButtonXPos:20];
@@ -20,10 +44,14 @@
         [self setAButtonYPos:20];
         [self setBButtonXPos:size.width-125];
         [self setBButtonYPos:20];
-        [self addChild:[self newLeftButton]];
-        [self addChild:[self newRightButton]];
-        [self addChild:[self newAButton]];
-        [self addChild:[self newBButton]];
+        self.leftButton = [self newLeftButton];
+        [self addChild:self.leftButton];
+        self.rightButton = [self newRightButton];
+        [self addChild:self.rightButton];
+        self.aButton = [self newAButton];
+        [self addChild:self.aButton];
+        self.bButton = [self newBButton];
+        [self addChild:self.bButton];
     }
     return self;
 }

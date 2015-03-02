@@ -49,6 +49,10 @@
 @property (nonatomic, assign) BOOL downButtonTouched;
 @property (nonatomic, assign) BOOL aButtonTouched;
 @property (nonatomic, assign) BOOL bButtonTouched;
+@property (strong, nonatomic) SKSpriteNode *leftButton;
+@property (strong, nonatomic) SKSpriteNode *rightButton;
+@property (strong, nonatomic) SKSpriteNode *aButton;
+@property (strong, nonatomic) SKSpriteNode *bButton;
 @property const int yGravity; // TODO: decide gravity implementation
 
 @property (strong, nonatomic) TaskQueue *taskQueue;
