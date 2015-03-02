@@ -17,7 +17,7 @@
         self.walls = [self.tileMap layerNamed:@"walls"];
         [self addChild:self.tileMap];   //add tileMap to the scene tree
 
-        self.player = [[Player alloc]initWithImageNamed:@"redtile.png"];
+        self.player = [[Player alloc]initWithImageNamed:@"sillyBot.png"];
         self.player.position = CGPointMake(100, 200);
         self.player.zPosition = 15;
         [self.tileMap addChild:self.player];    //add player to the scene tree
