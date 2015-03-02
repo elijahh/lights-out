@@ -13,14 +13,11 @@
 		7E595E7D1AA444E30017A4CD /* level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 7E595E7C1AA444E30017A4CD /* level1.tmx */; };
 		7E595E7F1AA445030017A4CD /* tileSet.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E595E7E1AA445030017A4CD /* tileSet.png */; };
 		7E595E811AA445120017A4CD /* tileSet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E595E801AA445120017A4CD /* tileSet@2x.png */; };
-		7E595E831AA464070017A4CD /* sillyBot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E595E821AA464070017A4CD /* sillyBot.png */; };
 		B146E42F1A9C09ED000CB0A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E42E1A9C09ED000CB0A0 /* main.m */; };
 		B146E4321A9C09ED000CB0A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E4311A9C09ED000CB0A0 /* AppDelegate.m */; };
 		B146E4351A9C09ED000CB0A0 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E4341A9C09ED000CB0A0 /* GameScene.m */; };
 		B146E43A1A9C09ED000CB0A0 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E4391A9C09ED000CB0A0 /* GameViewController.m */; };
-		B146E43D1A9C09ED000CB0A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B146E43B1A9C09ED000CB0A0 /* Main.storyboard */; };
 		B146E43F1A9C09ED000CB0A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B146E43E1A9C09ED000CB0A0 /* Images.xcassets */; };
-		B146E4421A9C09ED000CB0A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B146E4401A9C09ED000CB0A0 /* LaunchScreen.xib */; };
 		B146E44E1A9C09ED000CB0A0 /* LightsOutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B146E44D1A9C09ED000CB0A0 /* LightsOutTests.m */; };
 		B1A62FE51AA1FDA500D23982 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A62FE41AA1FDA500D23982 /* SpriteKit.framework */; };
 		B1A62FE71AA1FDB300D23982 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A62FE61AA1FDB300D23982 /* CoreGraphics.framework */; };
@@ -64,7 +61,6 @@
 		7E595E7C1AA444E30017A4CD /* level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level1.tmx; sourceTree = "<group>"; };
 		7E595E7E1AA445030017A4CD /* tileSet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tileSet.png; sourceTree = "<group>"; };
 		7E595E801AA445120017A4CD /* tileSet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileSet@2x.png"; sourceTree = "<group>"; };
-		7E595E821AA464070017A4CD /* sillyBot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sillyBot.png; sourceTree = "<group>"; };
 		B146E4291A9C09ED000CB0A0 /* LightsOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightsOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B146E42D1A9C09ED000CB0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B146E42E1A9C09ED000CB0A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -346,7 +342,6 @@
 			files = (
 				7E595E7D1AA444E30017A4CD /* level1.tmx in Resources */,
 				B1DBC55F1AA46547000C93F7 /* sillyBot.png in Resources */,
-				B146E4421A9C09ED000CB0A0 /* LaunchScreen.xib in Resources */,
 				B1DBC5581AA45354000C93F7 /* bbutton.png in Resources */,
 				B1A62FFD1AA206E700D23982 /* redtile.png in Resources */,
 				B1A62FFC1AA206E700D23982 /* crackedtile.png in Resources */,
@@ -356,8 +351,6 @@
 				B1DBC55B1AA45354000C93F7 /* ubutton.png in Resources */,
 				B1DBC5571AA45354000C93F7 /* abutton.png in Resources */,
 				B146E43F1A9C09ED000CB0A0 /* Images.xcassets in Resources */,
-				7E595E831AA464070017A4CD /* sillyBot.png in Resources */,
-				B146E43D1A9C09ED000CB0A0 /* Main.storyboard in Resources */,
 				B1DBC55D1AA45496000C93F7 /* rbutton.png in Resources */,
 				7E595E7F1AA445030017A4CD /* tileSet.png in Resources */,
 				B1DBC54F1AA43F7A000C93F7 /* lo_level2.tmx in Resources */,
