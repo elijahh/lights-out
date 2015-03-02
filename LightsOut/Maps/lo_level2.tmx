@@ -9,7 +9,6 @@
  <tileset firstgid="3" name="Water" tilewidth="32" tileheight="32">
   <image source="bluetile.png" width="32" height="32"/>
  </tileset>
- <imagelayer name="background" x="-63" y="-3"/>
  <layer name="walls" width="96" height="24">
   <data encoding="base64" compression="zlib">
    eJztmUsOgCAMRMH7H9q4cMenQKFTOi+ZlYm0L1WbmFNKmTHLaSzOlCCtC7V+Kaj1078tkf0j9CStC6HWFWo9Wfd1o+sSLf+W/UbxXwJhPyudF8H/Cc+S+/fmH3Wf12Bk96j12bs2U4NXn6N4mH/PWD+np/17fhftYMa/R4eo36Ho7x+voPpHnXNtVvvbta/e7v0H1T8ymv9G6N832rPw5WHEoX/6jxz6p//Ikfh8AQ74BEs=
