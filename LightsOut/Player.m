@@ -21,7 +21,9 @@
 //sets players bounding box, the 2 args allow you
 //to shrink the x an y dimensions of the box as needed
 -(CGRect)boundingBox:(CGFloat)amountToShrinkXDim yDimension:(CGFloat)amountToShrinkYDim {
-    return CGRectInset(self.frame, amountToShrinkXDim,amountToShrinkYDim);
+    CGRect boundingBox = CGRectInset(self.frame, amountToShrinkXDim,amountToShrinkYDim);
+    CGPoint delta = CGPointMake(self.desiredPos.x - self.position.x, self.desiredPos.y - self.position.y);
+    return CGRectOffset(boundingBox, delta.x, delta.y);
 }
 //returns new vector based on scalar value(Vector is a CGPoints x and y values)
 -(CGPoint)getScalarProduct:(CGPoint)vector withDelta:(CGFloat)scalar {
@@ -40,7 +42,7 @@
     CGPoint gravityStep = [self getScalarProduct:gravity withDelta:delta];
     self.velocity = [self getSumOfPoints:self.velocity withPoint:gravityStep];
     CGPoint velocityStep = [self getScalarProduct:self.velocity withDelta:delta];
-    self.position = [self getSumOfPoints:self.position withPoint:velocityStep];
+    self.desiredPos = [self getSumOfPoints:self.position withPoint:velocityStep];
     NSLog(@" MY LOCATION: %@",NSStringFromCGPoint(self.position));
 }
 @end

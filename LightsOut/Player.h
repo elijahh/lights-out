@@ -11,10 +11,17 @@
 
 @interface Player : SKSpriteNode
 
+//=============================== Methods ===================================//
 -(instancetype)initWithImageNamed:(NSString *)filename; // contstructor to create player and set velocity
-@property(nonatomic,assign)CGPoint velocity; // velocity to be applied
 -(void)update:(NSTimeInterval)delta; // updates delta for player(plugs into gravity)
 -(CGRect)boundingBox:(CGFloat)amountToShrinkXDim yDimension:(CGFloat)amountToShrinkYDim; // set players collision
+//==========================================================================//
+
+//============================ Properties =================================//
+@property(nonatomic,assign)CGPoint desiredPos; // players desired position(ties to collision handling)
+@property(nonatomic,assign)CGPoint velocity; // velocity to be applied
+@property(nonatomic,assign) BOOL onGround; 
+//=========================================================================//
 
 
 @end
