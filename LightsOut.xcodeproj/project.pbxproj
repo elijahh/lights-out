@@ -31,6 +31,7 @@
 		B1B0EC661AA1B31C0034434B /* TaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B0EC641AA1B31C0034434B /* TaskQueue.m */; };
 		B1B0EC711AA1ED210034434B /* lo_level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = B1B0EC701AA1ED210034434B /* lo_level1.tmx */; };
 		B1B0EC771AA1F82E0034434B /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B0EC751AA1F82E0034434B /* LFCGzipUtility.m */; };
+		B1DBC54F1AA43F7A000C93F7 /* lo_level2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = B1DBC54A1AA43F7A000C93F7 /* lo_level2.tmx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		B1B0EC701AA1ED210034434B /* lo_level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = lo_level1.tmx; path = Maps/lo_level1.tmx; sourceTree = "<group>"; };
 		B1B0EC741AA1F82E0034434B /* LFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCGzipUtility.h; sourceTree = SOURCE_ROOT; };
 		B1B0EC751AA1F82E0034434B /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = SOURCE_ROOT; };
+		B1DBC54A1AA43F7A000C93F7 /* lo_level2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = lo_level2.tmx; path = Maps/lo_level2.tmx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				B1A62FF91AA206E700D23982 /* crackedtile.png */,
 				B1A62FFA1AA206E700D23982 /* redtile.png */,
 				B1B0EC701AA1ED210034434B /* lo_level1.tmx */,
+				B1DBC54A1AA43F7A000C93F7 /* lo_level2.tmx */,
 			);
 			name = Maps;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				B1A62FFB1AA206E700D23982 /* bluetile.png in Resources */,
 				B146E43F1A9C09ED000CB0A0 /* Images.xcassets in Resources */,
 				B146E43D1A9C09ED000CB0A0 /* Main.storyboard in Resources */,
+				B1DBC54F1AA43F7A000C93F7 /* lo_level2.tmx in Resources */,
 				B1A62FFF1AA20B1D00D23982 /* lightsout2.png in Resources */,
 				B1B0EC711AA1ED210034434B /* lo_level1.tmx in Resources */,
 			);
