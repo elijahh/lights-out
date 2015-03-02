@@ -10,6 +10,7 @@
 #import "JSTileMap.h"
 #import "Task.h"
 #import "TaskQueue.h"
+#import "Player.h"
 
 @interface MasterScene : SKScene
 //=========================== FUNCTIONS ===================================
@@ -20,12 +21,15 @@
 -(SKSpriteNode *)newAButton;  // creates a button(jump button)?
 -(SKSpriteNode *)newBButton; // creates b button(acceleration)?
 
+
 -(void) initTaskQueue:(NSMutableArray*) tasks; // series of tasks for level
 -(void) getNextTask; // pop task off queue and assign it to activeTask
 //=========================================================================
 
 //=========================== PROPERTIES LIST ==================================
 @property(nonatomic,strong)JSTileMap * tileMap; // loading the unique tile map per level
+@property(nonatomic,strong)Player * player; // used to track player in the scene
+@property(nonatomic, assign)NSTimeInterval previousUpdateTime;
 @property const int upButtonXPos;
 @property const int upButtonYPos;
 @property const int rightButtonXPos;
