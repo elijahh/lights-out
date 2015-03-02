@@ -172,6 +172,7 @@
     
     [self.player update:delta];
     [self handleCollisionsForPlayer:self.player forLayer:self.walls];
+    [self setCameraCenter:self.player.position];
 }
 //gets a rect boundary for each tile
 -(CGRect)tileRectFromTileCoords:(CGPoint)tileCoords {
@@ -184,6 +185,17 @@
     TMXLayerInfo * layerInfo = layer.layerInfo;
     
     return [layerInfo tileGidAtCoord:coord];
+}
+
+- (void)setCameraCenter:(CGPoint)position {
+    NSInteger x = MAX(position.x, self.size.width / 2);
+    NSInteger y = MAX(position.y, self.size.height / 2);
+    x = MIN(x, (self.tileMap.mapSize.width * self.tileMap.tileSize.width) - self.size.width / 2);
+    y = MIN(y, (self.tileMap.mapSize.height * self.tileMap.tileSize.height) - self.size.height / 2);
+    CGPoint actualPosition = CGPointMake(x, y);
+    CGPoint centerOfView = CGPointMake(self.size.width/2, self.size.height/2);
+    CGPoint viewPoint = CGPointMake(centerOfView.x - actualPosition.x, centerOfView.y -actualPosition.y);
+    self.tileMap.position = viewPoint;
 }
 
 -(void)handleCollisionsForPlayer:(Player *)player forLayer:(TMXLayer*)layer {
