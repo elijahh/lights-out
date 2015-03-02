@@ -35,6 +35,12 @@
 		B1B0EC711AA1ED210034434B /* lo_level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = B1B0EC701AA1ED210034434B /* lo_level1.tmx */; };
 		B1B0EC771AA1F82E0034434B /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B0EC751AA1F82E0034434B /* LFCGzipUtility.m */; };
 		B1DBC54F1AA43F7A000C93F7 /* lo_level2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = B1DBC54A1AA43F7A000C93F7 /* lo_level2.tmx */; };
+		B1DBC5571AA45354000C93F7 /* abutton.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DBC5521AA45354000C93F7 /* abutton.png */; };
+		B1DBC5581AA45354000C93F7 /* bbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DBC5531AA45354000C93F7 /* bbutton.png */; };
+		B1DBC5591AA45354000C93F7 /* dbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DBC5541AA45354000C93F7 /* dbutton.png */; };
+		B1DBC55A1AA45354000C93F7 /* lbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DBC5551AA45354000C93F7 /* lbutton.png */; };
+		B1DBC55B1AA45354000C93F7 /* ubutton.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DBC5561AA45354000C93F7 /* ubutton.png */; };
+		B1DBC55D1AA45496000C93F7 /* rbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DBC55C1AA45496000C93F7 /* rbutton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +95,12 @@
 		B1B0EC741AA1F82E0034434B /* LFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCGzipUtility.h; sourceTree = SOURCE_ROOT; };
 		B1B0EC751AA1F82E0034434B /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = SOURCE_ROOT; };
 		B1DBC54A1AA43F7A000C93F7 /* lo_level2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = lo_level2.tmx; path = Maps/lo_level2.tmx; sourceTree = "<group>"; };
+		B1DBC5521AA45354000C93F7 /* abutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abutton.png; sourceTree = "<group>"; };
+		B1DBC5531AA45354000C93F7 /* bbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bbutton.png; sourceTree = "<group>"; };
+		B1DBC5541AA45354000C93F7 /* dbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dbutton.png; sourceTree = "<group>"; };
+		B1DBC5551AA45354000C93F7 /* lbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lbutton.png; sourceTree = "<group>"; };
+		B1DBC5561AA45354000C93F7 /* ubutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ubutton.png; sourceTree = "<group>"; };
+		B1DBC55C1AA45496000C93F7 /* rbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rbutton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +165,7 @@
 		B146E42B1A9C09ED000CB0A0 /* LightsOut */ = {
 			isa = PBXGroup;
 			children = (
+				B1DBC5511AA45336000C93F7 /* Controls */,
 				B1A62FED1AA1FE4D00D23982 /* JSTileMap */,
 				1B7FA0FC1AA1D3380005624B /* Maps */,
 				B146E4301A9C09ED000CB0A0 /* AppDelegate.h */,
@@ -231,6 +244,19 @@
 				B1B0EC751AA1F82E0034434B /* LFCGzipUtility.m */,
 			);
 			name = External;
+			sourceTree = "<group>";
+		};
+		B1DBC5511AA45336000C93F7 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				B1DBC55C1AA45496000C93F7 /* rbutton.png */,
+				B1DBC5521AA45354000C93F7 /* abutton.png */,
+				B1DBC5531AA45354000C93F7 /* bbutton.png */,
+				B1DBC5541AA45354000C93F7 /* dbutton.png */,
+				B1DBC5551AA45354000C93F7 /* lbutton.png */,
+				B1DBC5561AA45354000C93F7 /* ubutton.png */,
+			);
+			name = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,16 +341,22 @@
 			files = (
 				7E595E7D1AA444E30017A4CD /* level1.tmx in Resources */,
 				B146E4421A9C09ED000CB0A0 /* LaunchScreen.xib in Resources */,
+				B1DBC5581AA45354000C93F7 /* bbutton.png in Resources */,
 				B1A62FFD1AA206E700D23982 /* redtile.png in Resources */,
 				B1A62FFC1AA206E700D23982 /* crackedtile.png in Resources */,
 				B1A62FFB1AA206E700D23982 /* bluetile.png in Resources */,
+				B1DBC55A1AA45354000C93F7 /* lbutton.png in Resources */,
 				7E595E811AA445120017A4CD /* tileSet@2x.png in Resources */,
+				B1DBC55B1AA45354000C93F7 /* ubutton.png in Resources */,
+				B1DBC5571AA45354000C93F7 /* abutton.png in Resources */,
 				B146E43F1A9C09ED000CB0A0 /* Images.xcassets in Resources */,
 				B146E43D1A9C09ED000CB0A0 /* Main.storyboard in Resources */,
+				B1DBC55D1AA45496000C93F7 /* rbutton.png in Resources */,
 				7E595E7F1AA445030017A4CD /* tileSet.png in Resources */,
 				B1DBC54F1AA43F7A000C93F7 /* lo_level2.tmx in Resources */,
 				B1A62FFF1AA20B1D00D23982 /* lightsout2.png in Resources */,
 				B1B0EC711AA1ED210034434B /* lo_level1.tmx in Resources */,
+				B1DBC5591AA45354000C93F7 /* dbutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

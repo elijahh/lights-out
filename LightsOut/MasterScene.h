@@ -42,6 +42,12 @@
 @property const int aButtonYPos;
 @property const int bButtonXPos;
 @property const int bButtonYPos;
+@property (nonatomic, assign) BOOL upButtonTouched;
+@property (nonatomic, assign) BOOL rightButtonTouched;
+@property (nonatomic, assign) BOOL leftButtonTouched;
+@property (nonatomic, assign) BOOL downButtonTouched;
+@property (nonatomic, assign) BOOL aButtonTouched;
+@property (nonatomic, assign) BOOL bButtonTouched;
 @property const int yGravity; // TODO: decide gravity implementation
 
 @property (strong, nonatomic) TaskQueue *taskQueue;

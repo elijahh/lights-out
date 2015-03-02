@@ -5,13 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>D640B7A9-DADB-46AA-B359-530DDAF67990</string>
+	<string>CE3F4895-40EE-4522-A8EB-E883E2CA0D28</string>
 	<key>IDESourceControlProjectName</key>
 	<string>LightsOut</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>1870E62A110DC46C35562DCA61C913308B246169</key>
-		<string>https://github.com/elijahh/lights-out.git</string>
+		<string>github.com:elijahh/lights-out.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>LightsOut.xcodeproj</string>
@@ -21,7 +21,7 @@
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/elijahh/lights-out.git</string>
+	<string>github.com:elijahh/lights-out.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>1870E62A110DC46C35562DCA61C913308B246169</string>
 			<key>IDESourceControlWCCName</key>
-			<string>lights-out</string>
+			<string>LightsOut</string>
 		</dict>
 	</array>
 </dict>
