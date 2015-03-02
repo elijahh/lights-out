@@ -40,6 +40,7 @@
 		B1DBC55B1AA45354000C93F7 /* ubutton.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DBC5561AA45354000C93F7 /* ubutton.png */; };
 		B1DBC55D1AA45496000C93F7 /* rbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DBC55C1AA45496000C93F7 /* rbutton.png */; };
 		B1DBC55F1AA46547000C93F7 /* sillyBot.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DBC55E1AA46547000C93F7 /* sillyBot.png */; };
+		B1DBC5601AA46A5A000C93F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B146E43B1A9C09ED000CB0A0 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -340,6 +341,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1DBC5601AA46A5A000C93F7 /* Main.storyboard in Resources */,
 				7E595E7D1AA444E30017A4CD /* level1.tmx in Resources */,
 				B1DBC55F1AA46547000C93F7 /* sillyBot.png in Resources */,
 				B1DBC5581AA45354000C93F7 /* bbutton.png in Resources */,
