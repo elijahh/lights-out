@@ -13,8 +13,18 @@
 @synthesize completed;
 @synthesize active;
 
--(id) initWithPrerequisites:(NSMutableArray*) tasks {
+-(id) initWithTag:(NSString*) tag {
     if (self = [super init]) {
+        self.tag = tag;
+        [self setActive:NO];
+        [self setCompleted:NO];
+    }
+    return self;
+}
+
+-(id) initWithTag:(NSString*)tag AndPrerequisites:(NSMutableArray*)tasks {
+    if (self = [super init]) {
+        self.tag = tag;
         self.prerequisites = tasks;
         [self setActive:NO];
         [self setCompleted:NO];

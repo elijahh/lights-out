@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="96" height="24" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Grey Tiles" tilewidth="32" tileheight="32">
+  <image source="crackedtile.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="Lava" tilewidth="32" tileheight="32">
+  <image source="redtile.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="Water" tilewidth="32" tileheight="32">
+  <image source="bluetile.png" width="32" height="32"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="96" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztmUsOgCAMRMH7H9q4cAdS5DNTpi+ZlQm2L1WbmFNKOQLLbhD3tGCti7V+K6z1h38syv4ZerLWxVDrCLWe0H2d6LrEl39kvyr+SzDsZ+r+0ee3/LPu8zPo2T1qfbau/anBq89ePMy/Z9DP6W7/nt9FK1CZf9bvkIr/02D1zzrnsxntb9W+err3F1b/zDD9H1H0z8TsWXhyRcwJ/+FfOeE//CvH4vMGzg0ESA==
+  </data>
+ </layer>
+</map>
