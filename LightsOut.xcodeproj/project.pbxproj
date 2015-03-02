@@ -42,6 +42,7 @@
 		B1DBC55A1AA45354000C93F7 /* lbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DBC5551AA45354000C93F7 /* lbutton.png */; };
 		B1DBC55B1AA45354000C93F7 /* ubutton.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DBC5561AA45354000C93F7 /* ubutton.png */; };
 		B1DBC55D1AA45496000C93F7 /* rbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DBC55C1AA45496000C93F7 /* rbutton.png */; };
+		B1DBC55F1AA46547000C93F7 /* sillyBot.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DBC55E1AA46547000C93F7 /* sillyBot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,7 @@
 		B1DBC5551AA45354000C93F7 /* lbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lbutton.png; sourceTree = "<group>"; };
 		B1DBC5561AA45354000C93F7 /* ubutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ubutton.png; sourceTree = "<group>"; };
 		B1DBC55C1AA45496000C93F7 /* rbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rbutton.png; sourceTree = "<group>"; };
+		B1DBC55E1AA46547000C93F7 /* sillyBot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sillyBot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 		B146E42B1A9C09ED000CB0A0 /* LightsOut */ = {
 			isa = PBXGroup;
 			children = (
+				B1DBC55E1AA46547000C93F7 /* sillyBot.png */,
 				B1DBC5511AA45336000C93F7 /* Controls */,
 				B1A62FED1AA1FE4D00D23982 /* JSTileMap */,
 				1B7FA0FC1AA1D3380005624B /* Maps */,
@@ -342,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E595E7D1AA444E30017A4CD /* level1.tmx in Resources */,
+				B1DBC55F1AA46547000C93F7 /* sillyBot.png in Resources */,
 				B146E4421A9C09ED000CB0A0 /* LaunchScreen.xib in Resources */,
 				B1DBC5581AA45354000C93F7 /* bbutton.png in Resources */,
 				B1A62FFD1AA206E700D23982 /* redtile.png in Resources */,
