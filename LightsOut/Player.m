@@ -15,7 +15,32 @@
     if(self == [super initWithImageNamed:filename]){
         self.velocity = CGPointMake(0.0, 0.0);
     }
-        return self;
+    return self;
 }
 
+//sets players bounding box, the 2 args allow you
+//to shrink the x an y dimensions of the box as needed
+-(CGRect)boundingBox:(CGFloat)amountToShrinkXDim yDimension:(CGFloat)amountToShrinkYDim {
+    return CGRectInset(self.frame, amountToShrinkXDim,amountToShrinkYDim);
+}
+//returns new vector based on scalar value(Vector is a CGPoints x and y values)
+-(CGPoint)getScalarProduct:(CGPoint)vector withDelta:(CGFloat)scalar {
+    vector.x *= scalar;
+    vector.y *= scalar;
+    return CGPointMake(vector.x, vector.y);
+}
+//returns the some of two points x1 + x2 , y1 + y2
+-(CGPoint)getSumOfPoints:(CGPoint)pointOne withPoint:(CGPoint)pointTwo {
+    return CGPointMake(pointOne.x + pointTwo.x, pointOne.y + pointTwo.y);
+}
+
+// updates the current timestep and player gravity
+-(void)update:(NSTimeInterval)delta {
+    CGPoint gravity = CGPointMake(0.0, -450.0);
+    CGPoint gravityStep = [self getScalarProduct:gravity withDelta:delta];
+    self.velocity = [self getSumOfPoints:self.velocity withPoint:gravityStep];
+    CGPoint velocityStep = [self getScalarProduct:self.velocity withDelta:delta];
+    self.position = [self getSumOfPoints:self.position withPoint:velocityStep];
+    NSLog(@" MY LOCATION: %@",NSStringFromCGPoint(self.position));
+}
 @end
