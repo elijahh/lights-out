@@ -9,9 +9,10 @@
  <tileset firstgid="3" name="Water" tilewidth="32" tileheight="32">
   <image source="bluetile.png" width="32" height="32"/>
  </tileset>
- <layer name="Tile Layer 1" width="96" height="24">
+ <imagelayer name="background" x="-63" y="-3"/>
+ <layer name="walls" width="96" height="24">
   <data encoding="base64" compression="zlib">
-   eJztmUsOgCAMRMH7H9q4cAdS5DNTpi+ZlQm2L1WbmFNKOQLLbhD3tGCti7V+K6z1h38syv4ZerLWxVDrCLWe0H2d6LrEl39kvyr+SzDsZ+r+0ee3/LPu8zPo2T1qfbau/anBq89ePMy/Z9DP6W7/nt9FK1CZf9bvkIr/02D1zzrnsxntb9W+err3F1b/zDD9H1H0z8TsWXhyRcwJ/+FfOeE//CvH4vMGzg0ESA==
+   eJztmUsOgCAMRMH7H9q4cMenQKFTOi+ZlYm0L1WbmFNKmTHLaSzOlCCtC7V+Kaj1078tkf0j9CStC6HWFWo9Wfd1o+sSLf+W/UbxXwJhPyudF8H/Cc+S+/fmH3Wf12Bk96j12bs2U4NXn6N4mH/PWD+np/17fhftYMa/R4eo36Ho7x+voPpHnXNtVvvbta/e7v0H1T8ymv9G6N832rPw5WHEoX/6jxz6p//Ikfh8AQ74BEs=
   </data>
  </layer>
 </map>
