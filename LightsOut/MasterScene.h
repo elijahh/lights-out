@@ -29,6 +29,7 @@
 //=========================== PROPERTIES LIST ==================================
 @property(nonatomic,strong)JSTileMap * tileMap; // loading the unique tile map per level
 @property(nonatomic,strong)Player * player; // used to track player in the scene
+@property(nonatomic,strong)TMXLayer * walls; //tracks wall layer
 @property(nonatomic, assign)NSTimeInterval previousUpdateTime;
 @property const int upButtonXPos;
 @property const int upButtonYPos;
