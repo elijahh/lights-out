@@ -40,4 +40,24 @@
     TMXLayerInfo * layerInfo = layer.layerInfo;
     return [layerInfo tileGidAtCoord:coord];
 }
+
+-(void)handleCollisionsForPlayer:(Player *)player forLayer:(TMXLayer*)layer {
+    NSInteger indices[8] = {7,1,3,5,0,2,6,8};
+    for(int i =0; i< 8; i++){
+        NSInteger tileIndex = indices[i];
+        CGRect playerRect = [player boundingBox:0 yDimension:0]; // shrink nothing at the moment[TODO: test]
+        CGPoint playerCoord = [layer coordForPoint:player.position];
+        NSInteger tileColumn = tileIndex % 3;
+        NSInteger tileRow = tileIndex / 3;
+        CGPoint tileCoord = CGPointMake(playerCoord.x + (tileColumn - 1), (playerCoord.y + (tileRow - 1)));
+        
+        NSInteger gid = [self tileGIDAtTileCoord:tileCoord forLayer:layer];
+        
+        if(gid) {
+            CGRect tileRect = [self tileRectFromTileCoords:tileCoord];
+            NSLog(@"GID %ld, tileCoord:%@,TileRect %@,playerRect:%@",(long)gid,NSStringFromCGPoint(tileCoord),NSStringFromCGRect(tileRect),NSStringFromCGRect(playerRect));
+            //COLLISION RESOLUTION GOES HERE! TODO
+        }
+    }
+}
 @end
