@@ -43,6 +43,15 @@
     self.velocity = [self getSumOfPoints:self.velocity withPoint:gravityStep];
     CGPoint velocityStep = [self getScalarProduct:self.velocity withDelta:delta];
     self.desiredPos = [self getSumOfPoints:self.position withPoint:velocityStep];
+    if(self.isMovingLeft) {
+        self.velocity = CGPointMake(self.velocity.x - 5, self.velocity.y);
+    }
+    else if(self.isMovingRight) {
+        self.velocity = CGPointMake(self.velocity.x + 5, self.velocity.y);
+    }
+    else if( !self.isMovingRight && !self.isMovingLeft) {
+        self.velocity = CGPointMake(0, self.velocity.y);
+    }
     NSLog(@" MY LOCATION: %@",NSStringFromCGPoint(self.position));
 }
 @end
