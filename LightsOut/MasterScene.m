@@ -38,8 +38,15 @@
 
 -(void) setAButtonTouched:(BOOL)aButtonTouched {
     _aButtonTouched = aButtonTouched;
-    if (aButtonTouched) [self.aButton setAlpha:1.0];
-    else [self.aButton setAlpha:0.5];
+    if (aButtonTouched) {
+        self.player.isJumping = YES;
+        self.player.onGround = NO;
+        [self.aButton setAlpha:1.0];
+    }
+    else {
+         self.player.isJumping = NO;
+        [self.aButton setAlpha:0.5];
+    }
 }
 
 -(void) setBButtonTouched:(BOOL)bButtonTouched {

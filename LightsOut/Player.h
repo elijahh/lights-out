@@ -21,6 +21,7 @@
 @property(nonatomic,assign)CGPoint desiredPos; // players desired position(ties to collision handling)
 @property(nonatomic,assign)CGPoint velocity; // velocity to be applied
 @property(nonatomic,assign) BOOL onGround;
+@property(nonatomic,assign)BOOL isJumping;
 @property(nonatomic,assign)BOOL isMovingRight;
 @property(nonatomic,assign)BOOL isMovingLeft;
 

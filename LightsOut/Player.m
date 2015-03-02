@@ -38,20 +38,34 @@
 
 // updates the current timestep and player gravity
 -(void)update:(NSTimeInterval)delta {
+    NSLog(@" MY START VELOCITY: %@", NSStringFromCGPoint(self.velocity));
     CGPoint gravity = CGPointMake(0.0, -450.0);
+    CGFloat jumpForce = 500.0; // jump force to be applied to character
     CGPoint gravityStep = [self getScalarProduct:gravity withDelta:delta];
     self.velocity = [self getSumOfPoints:self.velocity withPoint:gravityStep];
+    NSLog(@"AM I ON THE GROUND: %d",self.onGround);
+    NSLog(@"AM I JUMPING: %d",self.isJumping);
+
     CGPoint velocityStep = [self getScalarProduct:self.velocity withDelta:delta];
     self.desiredPos = [self getSumOfPoints:self.position withPoint:velocityStep];
+    //Handle all movement logic
     if(self.isMovingLeft) {
         self.velocity = CGPointMake(self.velocity.x - 5, self.velocity.y);
     }
-    else if(self.isMovingRight) {
+    if(self.isMovingRight) {
         self.velocity = CGPointMake(self.velocity.x + 5, self.velocity.y);
     }
-    else if( !self.isMovingRight && !self.isMovingLeft) {
+    if( !self.isMovingRight && !self.isMovingLeft && !self.isJumping) { // IDLE CONDITION
         self.velocity = CGPointMake(0, self.velocity.y);
     }
+    if(self.isJumping && self.onGround){
+        self.velocity = CGPointMake(self.velocity.x, self.velocity.y + jumpForce);
+        NSLog(@"in jump condition!!!!!!!!!!");
+    }
+    if(!self.isJumping && !self.onGround) {
+        self.velocity = CGPointMake(self.velocity.x,gravity.y);
+    }
     NSLog(@" MY LOCATION: %@",NSStringFromCGPoint(self.position));
+    NSLog(@" MY END VELOCITY: %@", NSStringFromCGPoint(self.velocity));
 }
 @end
