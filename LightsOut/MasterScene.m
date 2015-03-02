@@ -12,14 +12,28 @@
 
 -(void) setLeftButtonTouched:(BOOL)leftButtonTouched {
     _leftButtonTouched = leftButtonTouched;
-    if (leftButtonTouched) [self.leftButton setAlpha:1.0];
-    else [self.leftButton setAlpha:0.5];
+    if (leftButtonTouched) {
+       [self.leftButton setAlpha:1.0];
+        self.player.isMovingLeft = YES;
+        self.player.isMovingRight = NO;
+    }
+    else {
+       [self.leftButton setAlpha:0.5];
+        self.player.isMovingLeft = NO;
+    }
 }
 
 -(void) setRightButtonTouched:(BOOL)rightButtonTouched {
     _rightButtonTouched = rightButtonTouched;
-    if (rightButtonTouched) [self.rightButton setAlpha:1.0];
-    else [self.rightButton setAlpha:0.5];
+    if (rightButtonTouched) {
+        [self.rightButton setAlpha:1.0];
+        self.player.isMovingRight = YES;
+        self.player.isMovingLeft = NO;
+    }
+    else {
+        [self.rightButton setAlpha:0.5];
+        self.player.isMovingRight = NO;
+    }
 }
 
 -(void) setAButtonTouched:(BOOL)aButtonTouched {
@@ -30,8 +44,12 @@
 
 -(void) setBButtonTouched:(BOOL)bButtonTouched {
     _bButtonTouched = bButtonTouched;
-    if (bButtonTouched) [self.bButton setAlpha:1.0];
-    else [self.bButton setAlpha:0.5];
+    if (bButtonTouched) {
+        [self.bButton setAlpha:1.0];
+    }
+    else {
+       [self.bButton setAlpha:0.5];
+    }
 }
 
 -(instancetype) initWithSize:(CGSize)size {
